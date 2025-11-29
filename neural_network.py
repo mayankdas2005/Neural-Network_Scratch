@@ -104,7 +104,7 @@ def test_prediction(index, W1, b1, W2, b2):
     plt.imshow(current_image, interpolation='nearest')
     plt.show()
 
-for i in range(4):
+for i in range(10):
     test_prediction(i, W1, b1, W2, b2)
 
 
